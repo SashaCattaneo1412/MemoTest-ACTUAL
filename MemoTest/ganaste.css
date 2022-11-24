@@ -1,0 +1,33 @@
+:root
+{
+    background-image: url('memotest\ ganaste.jpg');
+    background-size: cover;
+    bottom: 0px;
+}
+.btn-Play
+{
+    padding: 43px 195px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	left: 40px;
+    background-image:url(jugar\ normal.png) ;
+
+}
+.btn-Exit
+{
+    padding: 43px 195px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+    background-image:url(salir\ normal\ \(1\).png) ;
+
+}
+.btn-Play:hover
+{
+  background-image: url(jugar\ mouseover.png);
+}
+
+.btn-Exit:hover
+{
+ background-image: url(salir\ mouseover.png);
+}

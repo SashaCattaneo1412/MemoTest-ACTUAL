@@ -1,0 +1,39 @@
+:root
+{
+  background-image: url('fondo memotest.jpg');
+  background-size: cover;
+  background-position: center;
+  bottom: 0px;
+}
+.grid 
+{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+  }
+  
+  .Error
+  {
+    background-color: crimson;
+    width: 30%;
+    color: rgb(255 , 255, 255, 1); 
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    display: none;
+
+  }
+  .score-container
+  {
+    text-align: center;
+    color: azure;
+
+  }
+
+
+
